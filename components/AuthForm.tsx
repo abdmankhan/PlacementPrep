@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
 import { toast } from "sonner";
-import FormField from "@/app/components/FormField";
+import FormField from "@/components/FormField";
 import { useRouter } from "next/navigation";
 
 const authFormSchema = (type: FormType) => {
